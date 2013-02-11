@@ -2,8 +2,8 @@ require 'formula'
 
 class Jsdoc3 < Formula
   homepage 'http://usejsdoc.org/'
-  url 'https://github.com/jsdoc3/jsdoc/tarball/v3.0.1'
-  sha1 '0c6ad2321d300a3eaa2e1d543f3fbf166ff1ce18'
+  url 'https://github.com/jsdoc3/jsdoc/tarball/v3.1.0'
+  sha1 'ec4ac5f5d0dc5ebc3508d1714a8fcf15ebf65983'
 
   def install
     libexec.install Dir['*']
